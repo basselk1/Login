@@ -1,0 +1,65 @@
+<!doctype <!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Log In</title>
+    <link href="assets\css\jqueryloginstyle.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+ </head>
+ <body>
+    <button class="btn">Log In</button>
+    <div class="shadow">
+     <div class="main">
+         <div class="mainbody">
+                <form class="form">
+                        <h1 class="logintitle">Log in</h1>
+                        <input class="input" type="text" placeholder="Tenancy name">
+                        <input class="input" type="email" placeholder="User name or email">
+                        <input class="input" type="password" placeholder="Password" maxlength="16">
+                        <div class="rightside">
+                            <a class="pass" href="">Forgot password?</a>
+                        </div>
+                        <div class="leftside">
+                            <input class="submit" type="submit" value="LOG IN">&nbsp;
+                            <input type="checkbox">
+                            <label for="remember me">Remember me</label>
+                        </div>
+                        <div class="clear"></div><br>   
+                        <div class="loginlabel">Login with:</div>
+                 </form>
+                 <div class="socialIcons">
+                        <a class="socialLink gplus" href="##"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="socialLink twitter" href="##"><i class="fab fa-twitter"></i></a>
+                        <a class="socialLink fb" href="##"><i class="fab fa-facebook-f"></i></a>
+                </div>  
+         </div>
+         <div class="mainfooter">
+                <a href="">CREATE ACCOUNT</a>
+                <label>|</label>
+                <a href="">EMAIL ACTIVATION</a>
+        </div>
+     </div> 
+    </div> 
+    <script src="jquery-3.3.1.js"></script>   
+    <script>
+     $(document).ready(function(){   
+        $(".btn").click(function(){
+        $(this).hide();
+        $(".shadow").show(200);
+        $(".main").show(400);
+        });
+      $(".shadow").click(function(){
+        $(this).hide();
+        $(".main").hide();
+        $(".btn").show(200);
+        });
+      $(".submit").click(function(){
+        $(this).hide();
+        $(".main").hide();
+        $(".btn").show(200);
+        });
+     });
+    </script>        
+ </body>
+</html>

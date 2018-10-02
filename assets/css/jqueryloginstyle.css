@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: ;
+    height: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+.btn{
+    font-weight: bold; 
+    border-radius: 10px;
+    color: #6c7a8d;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 50px;
+    width: 200px;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, .05);
+    display: none;
+}
+.main{
+    background:#eceef;
+    width: 535px;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px auto;
+    display: none;
+}
+.mainbody{
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #dde3ec;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+}
+.form{
+    width: 100%;
+    height: auto;
+}
+h1.logintitle{
+    color: #4db3a5;
+}
+.input{
+    width: 97%;
+    height: 35px;
+    background: whitesmoke;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px;
+    border:1px solid #4db3a5;
+}
+.submit{
+    color: white;
+    background: #4db3a5;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+}
+a.pass{
+    color: black;
+    padding-top: 20px;
+    float: right;
+    text-align: right;
+    width: 100%;
+    text-decoration: none;
+}
+.rightside{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.leftside{
+    float:left;
+    width: 55%;
+    text-align: left;
+    color: rgb(155, 151, 151);
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+.clear{
+    clear: both;
+}
+.loginlabel{
+    color: rgb(155, 151, 151) ;
+    float:left;
+    width: 50%;
+    text-align: left;
+    padding-left: 7px;
+    font-weight: bold;
+}
+.mainfooter{
+    color: rgb(155, 151, 151) ;
+    background: #6c7a8d;
+    padding: 20px;
+    float: center;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    height: 30px;
+    line-height: 30px;
+}
+.socialIcons{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-right: 8px;
+    padding-bottom: 30px;
+}
+a.socialLink{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:40px;
+    display: inline-block;
+    color:white;
+    padding-left: 6px;
+    padding-top:4px;
+}
+.gplus{
+    background: #e07b6f;
+}
+.twitter{
+    background: #70ceee;
+}
+.fb{
+    background: #7a94b6;
+}
